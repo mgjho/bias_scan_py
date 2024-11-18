@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "bias_scan_py"
-version = "0.0.0"
+version = "0.1.0"
 authors = [{ name = "Mingi Jho", email = "mingi.jho@kaist.ac.kr" }]
 description = "bias_scan_py"
 readme = "README.md"
