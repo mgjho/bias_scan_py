@@ -158,14 +158,14 @@ docstring-code-line-length = "dynamic"
 [tool.isort]
 profile = "black"
 
-# [tool.pytest.ini_options]
-# addopts = ["--import-mode=importlib"]
-# pythonpath = "src"
-# testpaths = "tests"
+[tool.pytest.ini_options]
+addopts = ["--import-mode=importlib"]
+pythonpath = "src"
+testpaths = "tests"
 
-# [tool.coverage.run]
-# source = ["src"]
-# concurrency = ["multiprocessing", "thread"]
+[tool.coverage.run]
+source = ["src"]
+concurrency = ["multiprocessing", "thread"]
 
 [tool.mypy]
 plugins = ["numpy.typing.mypy_plugin"]
