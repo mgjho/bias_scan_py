@@ -183,7 +183,6 @@ class MainWindow(QtWidgets.QWidget):
         layout.addWidget(self.p1)
 
         self.voltage_setup = VoltageSetup()
-        self.voltage_setup
         layout.addWidget(self.voltage_setup)
         layout.addWidget(btn2)
         self._amps = []
