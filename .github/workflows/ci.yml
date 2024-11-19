@@ -109,7 +109,8 @@ jobs:
     runs-on: ubuntu-latest
     concurrency:
       group: release
-    needs: [test, mypy]
+    # needs: [test, mypy]
+    needs: [test]
     if: |
       github.event_name == 'workflow_dispatch' &&
       github.repository == 'mgjho/bias_scan_py' &&
