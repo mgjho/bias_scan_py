@@ -45,7 +45,7 @@ Repository = "https://github.com/mgjho/bias_scan_py.git"
 Issues = "https://github.com/mgjho/bias_scan_py/issues"
 
 [tool.commitizen]
-change_type_map = { "BREAKING CHANGE" = "Breaking Changes", "feat" = "Features", "fix" = "Bug Fixes", "refactor" = "Code Refactor", "perf" = "Performance" }
+change_type_map = { "BREAKING CHANGE" = "💥 Breaking Changes", "feat" = "✨ Features", "fix" = "🐞 Bug Fixes", "refactor" = "♻️ Code Refactor", "perf" = "⚡️ Performance" }
 
 version_provider = "pep621"
 update_changelog_on_bump = true
@@ -54,11 +54,11 @@ changelog_merge_prerelease = true
 name = 'cz_changeup'
 major_version_zero = true
 change_type_order = [
-    "Breaking Changes",
-    "Features",
-    "Bug Fixes",
-    "Code Refactor",
-    "Performance",
+    "💥 Breaking Changes",
+    "✨ Features",
+    "🐞 Bug Fixes",
+    "♻️ Code Refactor",
+    "⚡️ Performance",
 ]
 # cz-changeup configuration
 changeup_repo_base_url = "https://github.com/m/mgjho/bias_scan_py"
